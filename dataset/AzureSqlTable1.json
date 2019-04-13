@@ -8,10 +8,6 @@
 		"type": "AzureSqlTable",
 		"structure": [
 			{
-				"name": "recordid",
-				"type": "Int32"
-			},
-			{
 				"name": "customerid",
 				"type": "Int32"
 			},
