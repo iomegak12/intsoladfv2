@@ -1,0 +1,27 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "recordid",
+				"type": "Int32"
+			},
+			{
+				"name": "customerid",
+				"type": "Int32"
+			},
+			{
+				"name": "customername",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[records]"
+		}
+	}
+}
